@@ -1,11 +1,610 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Нихуя себе!!!
-</body>
-</html>
+/*.header {
+  max-width: 1440px;
+
+
+}
+.container{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  transform: translate(130px, 80px);
+}
+.logo {
+    width: 180px;
+    height: 50px;
+    transform: translate(0px, 10px);
+
+}
+.menu {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    transform: translate(100px, 0px);
+}
+.menu p{
+    font-family: Inter;
+    font-size: 20px;
+    color: #2F2E2E;
+}
+.menu img{
+    width: 25px;
+    height: 22px;
+    transform: translate(0px, 20px);
+}
+
+
+
+
+
+
+.about {
+  position: relative; 
+  width: 1440px;
+  height: 700px;
+}
+
+.image {
+  position: relative;
+  display: inline-block;
+  margin-left: 320px;
+  margin-top: 160px;
+
+
+}
+
+
+.bg {
+  display: block;
+  width: 1150px;
+}
+
+
+.card-top {
+  position: absolute;
+  top: 150px;
+  left: -350px;
+  width: 691px;
+  height: 550px;
+
+}
+.text{
+position: absolute;
+  top: 400px;
+  left: 50px;
+  width: 436px;
+  height: 30px;
+  color: #2F2E2E;  
+}
+.text h2{
+    font-family: Playfair Display;
+    font-size: 51px;
+    font-weight: bold;
+    
+}
+.text p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 300;
+
+}
+
+.servic {
+    width: 1470px;
+    height: 384px;
+    background-color:grey;
+    transform: translate(0px, 473px);
+
+
+}
+.servic h2{
+    font-family: Playfair Display;
+    font-size: 51px;
+    font-weight: bold;
+    color: #2F2E2E;
+    text-align: center;
+
+}
+.servic_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+.planning {
+text-align: center;
+ 
+}
+
+.planning img,
+.interior img,
+.exterior img {
+    display: block;
+    margin: 0 auto; 
+}
+.planning h2{
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2F2E2E;
+}
+.planning p,
+.interior p,
+.exterior p{
+    font-family: Playfair Display;
+    font-size: 16px;
+}
+
+.interior {
+    text-align: center;
+}
+.interior h2{
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2F2E2E;
+}
+.interior p{
+}
+.exterior {
+    text-align: center;
+}
+.exterior h2{
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2F2E2E;
+}
+
+.about {
+    width: 1470px;
+    height: 641px;
+    transform: translate(0px, 373px);
+
+}
+.container_about {
+    width: 1276px;
+    height: 571px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 70px;
+}
+.about_text {
+    margin-left: 120px;
+    max-width: 456px;
+
+
+}
+.about_text h2{
+    font-family: Playfair Display;
+    font-size: 51px;
+    font-weight: bold;
+    color: #2F2E2E;
+    text-align: left;  
+}
+.about_text p{
+    font-family: Playfair Display;
+    font-size: 31px;
+    color: #2F2E2E;
+    text-align: left;
+    line-height: 1.5; 
+}
+.about_text .cut {
+    font-family: Inter;
+    font-size: 24px;
+    color: #2F2E2E;
+    font-weight: 600;
+}
+
+.project {
+    width: 1470px;
+    height: 802px;
+    transform: translate(0px, 157px); 
+    padding: 70px;  
+}
+.project h2{
+    font-family: Playfair Display;
+    font-size: 51px;
+    font-weight: bold;
+    color: #2F2E2E;
+    text-align: left;  
+}
+.grid_projects {
+    width: 1241px;
+    height: 732px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 100px;
+
+}
+.item {
+    width: 344px;
+    height: 193px;
+}
+.item p{
+    font-family: Playfair Display;
+    font-size: 18px;
+    color: #2F2E2E;
+    text-align: center;
+}
+
+
+.team {
+    width: 1470px;
+    height: 400px;
+    transform: translate(0px, 157px); 
+    padding: 70px;
+}
+
+.team h2{
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 51px;
+    font-weight: bold;
+    color: #2F2E2E;
+}
+
+.team_inner{
+   display: flex; 
+}
+.team_item {
+    display: flex;
+    justify-content: center;
+}
+
+.team_item img{
+    width: 151px;
+    height: 151px;
+}
+
+.team_text{
+    padding-left: 20px;
+    padding-right: 0px;
+    width: 663px;
+
+
+}
+
+div h3{
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2F2E2E;
+
+}
+div p{
+    font-family: Playfair Display;
+    font-size: 17px;
+    color: #2F2E2E;
+    width: 307px;
+    height: 69px;
+
+}*/
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin: 80px 0 0 130px;
+}
+
+.logo {
+  width: 180px;
+  height: 50px;
+  margin: 10px 0 0 0;
+}
+
+.menu {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 0 0 0 100px;
+}
+
+.menu p {
+  font-family: Inter;
+  font-size: 20px;
+  color: #2F2E2E;
+}
+
+.menu img {
+  width: 25px;
+  height: 22px;
+  margin: 20px 0 0 0;
+}
+.about1 {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  height: 700px;
+  margin: -100px auto 0 auto;
+}
+
+.image {
+  position: relative;
+  display: inline-block;
+  margin-left: 320px;
+  margin-top: 160px;
+}
+
+.bg {
+  display: block;
+  width: 1150px;
+}
+
+.card-top {
+  position: absolute;
+  top: 150px;
+  left: -350px;
+  width: 691px;
+  height: 550px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-120%, 10%);  /* ← центрирование внутри card-top */
+  width: 550px;  /* ← увеличиваем ширину для текста */
+  text-align: left;  /* ← центрируем текст по горизонтали */
+  color: #2F2E2E;
+}
+
+.text h2 {
+  font-family: Playfair Display;
+  font-size: 51px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.servic {
+  width: 100%;
+  max-width: 1500px;
+  min-height: 384px;
+  background-color: grey;
+  margin: 198px auto 0 auto; 
+  padding: 60px 0;
+}
+
+.servic h2 {
+  font-family: Playfair Display;
+  font-size: 51px;
+  font-weight: bold;
+  color: #2F2E2E;
+  text-align: center;
+}
+
+.servic_grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  gap: 40px;
+}
+
+.planning, .interior, .exterior {
+  text-align: center;
+}
+
+.planning img,
+.interior img,
+.exterior img {
+  display: block;
+  margin: 0 auto;
+}
+
+.planning h2,
+.interior h2,
+.exterior h2 {
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2F2E2E;
+  margin: 20px 0 10px 0;
+}
+
+.planning p,
+.interior p,
+.exterior p {
+  font-family: Playfair Display;
+  font-size: 16px;
+  margin: 0;
+}
+
+.about {
+  width: 100%;
+  max-width: 1470px;
+  min-height: 641px;
+  margin: 40px auto 0 auto;
+}
+
+.container_about {
+  width: 100%;
+  max-width: 1276px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 70px;
+  gap: 100px;
+}
+
+.container_about img {
+  width: 735px;
+  height: auto;
+}
+
+.about_text {
+  max-width: 456px;
+}
+
+.about_text h2 {
+  font-family: Playfair Display;
+  font-size: 51px;
+  font-weight: bold;
+  color: #2F2E2E;
+  margin-bottom: 20px;
+}
+
+.about_text p {
+  font-family: Playfair Display;
+  font-size: 31px;
+  color: #2F2E2E;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about_text .cut {
+  font-family: Inter;
+  font-size: 24px;
+  color: #2F2E2E;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.project {
+  width: 100%;
+  max-width: 1470px;
+  min-height: 802px;
+  margin: 0px auto 0 auto;
+  padding: 70px;
+}
+
+.project h2 {
+  font-family: Playfair Display;
+  font-size: 51px;
+  font-weight: bold;
+  color: #2F2E2E;
+  margin-bottom: 50px;
+}
+
+.grid_projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.item {
+  width: 100%;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.item p {
+  font-family: Playfair Display;
+  font-size: 18px;
+  color: #2F2E2E;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.team {
+  width: 100%;
+  max-width: 1470px;
+  min-height: 400px;
+  margin: -50px auto 0 auto;
+  padding: 70px;
+}
+
+.team h2 {
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 51px;
+  font-weight: bold;
+  color: #2F2E2E;
+  margin-bottom: 50px;
+}
+
+.team_inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.team_item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.team_item img {
+  width: 151px;
+  height: 151px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.team_text h3 {
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2F2E2E;
+  margin: 0 0 10px 0;
+}
+
+.team_text p {
+  font-family: Playfair Display;
+  font-size: 17px;
+  color: #2F2E2E;
+  margin: 0;
+  width: auto;
+}
+.footer{
+    width: 1440px;
+    height: 369px;
+    background-color: #2F2E2E;
+    margin-left: 85px;
+}
+.grid_footer {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  padding-left: 150px;
+  padding-top: 40px;
+}
+.grid_item1 {
+    width: 287px;
+}
+.grid_item1 p,
+.grid_item2 p,
+.grid_item3 p{
+  font-family: Inter;
+  color: #FAFAFA;
+  font-size: 17px;
+  line-height: 1.5; 
+}
+.grid_item1 h2,
+.grid_item2 h2,
+.grid_item3 h2{
+  font-family: Inter;
+  color: #FAFAFA;
+  font-size: 24px;  
+}
+.icon {
+   display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 60px;   
+}
+.grid_item2 {
+    width: 201px;
+    margin-top: -50px; 
+}
+.grid_item3 {
+}
